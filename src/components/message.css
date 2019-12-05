@@ -1,0 +1,98 @@
+.message {
+    height: 50rem;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border: 1px solid rgba(155, 248, 155, 0.137);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  
+}
+.message-list {
+    height: 75rem;
+    overflow-y: scroll;
+}
+.loaderm {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+.message-box {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    border: 1px solid green;
+    width: max-content;
+    background-color: green;
+    color: rgb(8, 8, 8);
+    font-size: 1.7rem;
+}
+.message-box span {
+    color: rgb(223, 221, 221);
+}
+.message-box p {
+    max-width: 30rem;
+    font-size: 2rem;
+    padding: 1rem;
+    display: flex;
+    color: #fff;
+}
+
+.message-box .time {
+    font-size: 1rem;
+    margin-left: 2rem;
+    align-self: flex-end;
+}
+.form {
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 100%;
+}
+.form input {
+    width: 81%;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    padding: .5rem;
+}
+button {
+    background-color: rgb(5, 150, 5);
+    height: 4rem;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: -.8rem;
+    width: 20%;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(5, 119, 14);
+}
+@media screen and (max-width: 900px) {
+    .message {
+        margin: 0;
+        height: 88vh;
+        border: 1px solid rgba(155, 248, 155, 0.473);
+    }
+    .message-box p {
+        max-width: 80vw;
+    }
+    
+    .form input {
+        height: 5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .message {
+        height: 83vh;
+    }
+    .form {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}

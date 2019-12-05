@@ -1,0 +1,28 @@
+.anime {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgb(2, 2, 2);
+    color: #fff;
+}
+.h1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.el {
+    width: 10rem;
+    display: flex;
+}
+.word {
+    transition: all .5s ease-out;
+    display: inline-block;
+    margin-left: .5rem;
+}
+@media screen and (max-width: 600px) {
+    .h1 {
+        font-size: 1.1rem;
+    }
+    .anime {
+        height: 5vh;
+    }
+}

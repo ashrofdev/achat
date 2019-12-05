@@ -1,0 +1,44 @@
+.friends {
+    grid-column: 5 / 9;
+    background-color: #fff;
+    margin-left: -.2rem;
+}
+.f-head {
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+.ol {
+    height: 40rem;
+    overflow-y: scroll;
+}
+.fri {
+    color: #fff;
+    list-style: none;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: black;
+    transition: all .2s;
+}
+.fri:hover {
+    background-color: rgb(235, 231, 231);
+}
+.fri span {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: rgb(97, 96, 96);
+}
+@media screen and (max-width: 900px) {
+    .friends {
+        display: none;
+    }
+}

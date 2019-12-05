@@ -1,0 +1,21 @@
+.home-page {
+    display: grid;
+    grid-template-columns: minmax(6rem, 1fr) repeat(6, minmax(6rem, 17rem)) minmax(6rem, 1fr);
+    justify-content: center;
+    height: 80vh;
+    background-color: rgb(13, 36, 2);
+    overflow-y: hidden;
+}
+.story {
+    grid-column: 2 / 5;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .home-page {
+        align-content: center;
+    }
+    .signin {
+        justify-self: center;
+        margin-top: 0;
+    }
+}
