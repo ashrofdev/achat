@@ -1,5 +1,5 @@
 {
-  "name": "facebook2",
+  "name": "achat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,9 +40,5 @@
       "last 1 safari version"
     ]
   },
-<<<<<<< HEAD
-  "homepage": "https://ashrofdev.github.io/A-chat"
-=======
-  "homepage": "https://ashrofdev.github.io/repository-name"
->>>>>>> 9a4d9570620b3dc965d9c9afc04850284acabaa1
+  "homepage": "https://ashrofdev.github.io/achat"
 }
